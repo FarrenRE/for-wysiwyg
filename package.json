@@ -1,0 +1,31 @@
+{
+  "name": "for-wysiwyg",
+  "version": "1.0.0",
+  "description": "Generate code for wysiwygs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarrenRE/for-wysiwyg.git"
+  },
+  "author": "fre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarrenRE/for-wysiwyg/issues"
+  },
+  "homepage": "https://github.com/FarrenRE/for-wysiwyg#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1"
+  }
+}

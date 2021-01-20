@@ -1,0 +1,78 @@
+/* IQ Colour Palette */
+$yellow: #eab339
+$lightblue: #0094d6
+$pink: #cf4e98
+$darkblue: #2e2e4f
+$orange: #db824a
+$green: #54975f
+$purple: #8f2784
+$red: #e31f26
+
+/* IQ Topic colours */
+$digital-marketing: $purple
+$data-driven-marketing: $green
+$copywriting-creative: $orange
+$customer-experience: $lightblue
+$digital-campaigns: $pink
+$analytics: $yellow
+$responsible-marketing: $darkblue
+
+/* Misc */
+$certificate-img: url(/sites/default/files/ADMA_digital%20badge_CERT.png)
+  
+.course-calendar
+  background: white
+  text-align: left
+  width: 100%
+
+  & tr
+    margin-bottom: 0.5rem
+
+  & .ta-r
+    text-align: right
+
+  & .cell--centered
+    display: flex
+    align-items: center
+    justify-content: center
+
+  & .button.button--small
+    min-height: 1.5em
+    min-width: 4.5em
+    margin-bottom: 0
+    padding: 0.5em 1em
+
+  & .is-certificate
+    display: flex
+  & .course-calendar__certificate-icon
+    background-image: $certificate-img
+    background-position: center
+    background-repeat: no-repeat
+    background-size: contain
+    margin-left: auto
+    width: 28px
+
+  & .topic-header
+    background: white
+    font-family: 'DIN', sans-serif
+    font-size: 1.5rem
+    font-weight: bold
+    padding: 0.5rem 1rem 0.25rem 1rem
+    position: sticky
+    top: 0
+    &.digital-marketing
+      box-shadow: inset 0 -8px 0 0 $digital-marketing
+    &.data-driven-marketing
+      box-shadow: inset 0 -8px 0 0 $data-driven-marketing
+    &.copywriting-creative
+      box-shadow: inset 0 -8px 0 0 $copywriting-creative
+    &.customer-experience
+      box-shadow: inset 0 -8px 0 0 $customer-experience
+    &.digital-marketing
+      box-shadow: inset 0 -8px 0 0 $digital-marketing
+    &.digital-campaigns
+      box-shadow: inset 0 -8px 0 0 $digital-campaigns
+    &.analytics
+      box-shadow: inset 0 -8px 0 0 $analytics
+    &.responsible-marketing
+      box-shadow: inset 0 -8px 0 0 $responsible-marketing

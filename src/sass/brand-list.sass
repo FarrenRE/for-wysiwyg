@@ -1,0 +1,31 @@
+.brand-list
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.brand-list--item
+  display: flex
+  flex-direction: column
+  background: white
+  box-shadow: 0 0 1px 1px rgba(128,128,128,0.15)
+  margin-bottom: 2rem
+  padding: 1rem
+
+.brand-list--image
+  display: flex
+  align-items: center
+  justify-content: center
+
+.brand-list--image img
+  min-width: 300px
+
+.brand-list--about
+  font-size: 0.9rem
+
+@media screen and (min-width: 768px)
+  .brand-list--item
+    flex-direction: row
+
+  .brand-list--image img
+    padding-right: 1rem

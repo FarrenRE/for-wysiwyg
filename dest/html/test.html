@@ -1,0 +1,74 @@
+<div class="breakout theme-background--primary">
+  <div class="section__description">
+    <div id="testimonials" class="testimonials">
+      <div class="testimonial">
+        <div class="testimonial--quote"><span class="quotation-mark quotation-mark--left">&ldquo;</span>One of the most beneficial learning courses I've done. Mark Ritson is very engaging and down to earth.<span class="quotation-mark quotation-mark--right">&rdquo;</span class="quotation-mark quotation-mark--right"></div>
+        <div class="testimonial--attribution">
+          <div class="testimonial--attribution__title">Senior Account Manager</div>
+          <div class="testimonial--attribution__name">Google</div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial--quote"><span class="quotation-mark quotation-mark--left">&ldquo;</span class="quotation-mark quotation-mark--left">Worth every penny. It's the best training I have ever had. Mark Ritson is inspiring. Do it!<span class="quotation-mark quotation-mark--right">&rdquo;</span></div>
+        <div class="testimonial--attribution">
+          <div class="testimonial--attribution__title">Head of Marketing</div>
+          <div class="testimonial--attribution__name">Cath Kidston</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+  .testimonials {
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2rem;
+  }
+  .testimonial {
+    padding: 2rem;
+    text-align: center;
+  }
+  .testimonial:not(:last-of-type) {
+    border-right: 1px solid white;
+  }
+  .testimonial--quote {
+    font-size: 1.25rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+    position: relative;
+  }
+  .testimonial--quote .quotation-mark {
+    font-size: 2rem;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+  }
+  .quotation-mark.quotation-mark--left {
+    top: 0;
+    left: 0;
+  }
+  .quotation-mark.quotation-mark--right {
+    right: 0;
+    bottom: 0;
+  }
+  .testimonial--attribution {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .testimonial--attribution__title {
+    color: black;
+  }
+
+  @media screen and (min-width: 768px) {
+    .testimonials {
+      flex-direction: row;
+    }
+  }
+
+  .theme-background--primary { background: #E71E4A; }
+  .theme-color--primary { color: #E71E4A; }
+  .landing-page .ordered-list h3:before { background-color: #E71E4A !important; }
+</style>

@@ -1,0 +1,87 @@
+<div class="fact-file">
+  <div class="fact-file--feature-image">
+    <img src="/sites/default/files/MarkRitson-4k1.png" />
+  </div>
+  <div class="fact-rows">
+    <div class="fact-row">
+      <h2 class="fact-file--header">Fact file</h2>
+    </div>
+    <div class="fact-row">
+      <p class="theme-color--primary">Years in marketing:</p>
+      <p>20</p>
+    </div>
+    <div class="fact-row">
+      <p class="theme-color--primary">Taught at:</p>
+      <p>
+        London Business School<br>
+        Melbourne Business School<br>
+        MIT Sloan School of Management
+      </p>
+    </div>
+    <div class="fact-row">
+      <p class="theme-color--primary">Clients:</p>
+      <p>
+        LVMH<br>
+        PepsiCo<br>
+        De Beers<br>
+        Unilever<br>
+        KPMG
+      </p>
+    </div>
+    <div class="fact-row">
+      <p class="theme-color--primary">Awards:</p>
+      <p>
+        PPA Columnist of the Year<br>
+        Ferber Award
+      </p>
+    </div>
+  </div>
+</div>
+
+<style type="text/css">
+  .fact-file {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .fact-file > * {
+    width: 100%;
+  }
+  .fact-file--feature-image {
+    position: relative;
+    min-height: 500px;
+    overflow: hidden;
+  }
+  .fact-file--feature-image > img {
+    position: absolute;
+  }
+  .fact-file--header {
+    font-weight: bold;
+  }
+  .fact-file .fact-rows {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .fact-row {
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 1rem;
+    padding-bottom: 1rem;
+  }
+  .fact-row p:first-of-type {
+    /* color: black; */
+    font-size: 110%;
+  }
+  .fact-row p {
+    margin: 0;
+  }
+  @media screen and (min-width: 768px) {
+    .fact-file {
+      flex-direction: row-reverse;
+    }
+    .fact-file > * {
+      width: 50%;
+    }
+  }
+</style>
